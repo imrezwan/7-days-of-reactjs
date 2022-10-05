@@ -3,8 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 class Home extends React.Component {
+  formatMyName(user) {
+    return user.first_name + " " + user.last_name;
+  }
+
   render() {
-    const element = <h1>Hello World</h1>;
+    const user = {
+      first_name: "Rezwan",
+      last_name: "Kaoser",
+    }
+    const element = <h1>{this.formatMyName(user)}</h1>;
     return (
       element
     )
