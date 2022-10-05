@@ -2,17 +2,37 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-class Home extends React.Component {
-  formatMyName(user) {
-    return user.first_name + " " + user.last_name;
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state  = {
+      date: new Date(),
+    };
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    this.setState({
+      date: new Date(),
+    });
   }
 
   render() {
-    const user = {
-      first_name: "Rezwan",
-      last_name: "Kaoser",
-    }
-    const element = <h1>{this.formatMyName(user)}</h1>;
+    const element = (
+        <div className="clock">
+          <h2>{this.state.date.toLocaleTimeString()}</h2>
+        </div>
+    );
     return (
       element
     )
@@ -21,5 +41,7 @@ class Home extends React.Component {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Home></Home>
+  <div className="container">
+    <Clock></Clock>
+  </div>
 );
