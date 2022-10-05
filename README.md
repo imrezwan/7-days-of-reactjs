@@ -13,3 +13,19 @@ This repository consists of the practice projects and codes of my 7 days reactjs
 
 #### Resources used -
 * https://reactjs.org/tutorial/tutorial.html
+
+
+## Day - 2 - React Main Concepts
+### Learnings and Actions - 
+* Basic JSX (Javascript XML)
+* State and Lifecycle
+* Handling events
+* Conditional Rendering
+* Forms
+#### Clock app code : https://github.com/rezwan2525/7-days-of-reactjs/tree/main/day-2/concept-practice-app
+<img src="https://user-images.githubusercontent.com/30120066/194067031-169618a9-e448-4c4d-b7e9-b1521bfeb84b.png" height="30%" width="40%">
+
+#### Resources used -
+* https://reactjs.org/docs/hello-world.html ( Covered Main concepts section)
+
+
