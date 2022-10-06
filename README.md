@@ -43,5 +43,18 @@ This repository consists of the practice projects and codes of my 7 days reactjs
 
 #### Resources used -
 * https://reactjs.org/docs/hello-world.html ( Covered Main concepts section)
+<br><br>
+
+
+
+
+## Day - 3 - React Context API Concepts
+### Learnings and Takeout - 
+* Context API
+* How Context API can help manage data beyond the 'props' concept --  Context Provider serves data to all of its children. So, we need not pass `props` to its children.
+* Understood how the observer pattern is used --  basically if the subject changes (Provider holds the subject in #reactjs concept), then all of its subscribers/observers (Consumer in #reactjs concept) get notified.
+
+#### Resources used -
+* https://reactjs.org/docs/context.html
 
 
