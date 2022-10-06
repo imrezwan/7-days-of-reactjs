@@ -13,6 +13,19 @@ class Counter extends React.Component {
     };
   }
 
+  componentDidMount() { // this counter will be increased automatically in every 10 seconds by 1
+    this.timerID = setInterval(
+      ()=>{ 
+        this.setState( this.setState({ count: this.state.count + 1 }) )
+      },
+      10000,
+    )
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
   increment = () => {
     this.setState({
       count: this.state.count + 1,
