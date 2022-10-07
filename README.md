@@ -58,3 +58,19 @@ This repository consists of the practice projects and codes of my 7 days reactjs
 * https://reactjs.org/docs/context.html
 
 
+<br><br>
+
+
+
+
+## Day - 4 - React Documentation Advanced topics
+### Learnings and Takeout - 
+* Higher Order Component
+* Fragments
+* Render Props
+
+#### Resources used -
+* https://reactjs.org/docs/render-props.html
+* https://reactjs.org/docs/higher-order-components.html
+* https://reactjs.org/docs/fragments.html
+
