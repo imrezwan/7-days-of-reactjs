@@ -74,3 +74,20 @@ This repository consists of the practice projects and codes of my 7 days reactjs
 * https://reactjs.org/docs/higher-order-components.html
 * https://reactjs.org/docs/fragments.html
 
+<br><br>
+
+
+
+
+## Day - 5 - React HOC and Hook
+### Learnings and Takeout - 
+* Higher Order Component Hands on practice
+* Basics of Hooks and practice
+
+#### Flashcards app code : https://github.com/rezwan2525/7-days-of-reactjs/tree/main/day-5/flashcard-react
+<img src="https://user-images.githubusercontent.com/30120066/194720942-922bc193-c6ad-4578-b6b1-17c14b43742a.png" height="30%" width="40%"><br>
+
+#### Resources used -
+* https://reactjs.org/docs/higher-order-components.html
+* https://reactjs.org/docs/hooks-intro.html ( till useEffect hook)
+
