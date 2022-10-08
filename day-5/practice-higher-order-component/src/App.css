@@ -1,0 +1,12 @@
+.App {
+  margin: 30px;
+}
+
+.blogpost-section {
+  margin-bottom: 30px;
+}
+
+.comment-section {
+  background: grey;
+  padding: 30px;
+}
