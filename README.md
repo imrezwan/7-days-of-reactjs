@@ -85,6 +85,7 @@ This repository consists of the practice projects and codes of my 7 days reactjs
 * Basics of Hooks and practice
 
 #### Flashcards app code : https://github.com/rezwan2525/7-days-of-reactjs/tree/main/day-5/flashcard-react
+#### Flashcards app live: https://flashcardreact25.netlify.app/
 <img src="https://user-images.githubusercontent.com/30120066/194720942-922bc193-c6ad-4578-b6b1-17c14b43742a.png" height="30%" width="40%"><br>
 
 #### Resources used -
