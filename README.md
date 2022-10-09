@@ -92,3 +92,11 @@ This repository consists of the practice projects and codes of my 7 days reactjs
 * https://reactjs.org/docs/higher-order-components.html
 * https://reactjs.org/docs/hooks-intro.html ( till useEffect hook)
 
+
+
+## Day - 6 - React Hook
+### Learnings- 
+* learned about useMemo, useRef, useCallback, useReducer and building custom hook
+#### Resources used -
+* https://reactjs.org/docs/hooks-custom.html
+* https://reactjs.org/docs/hooks-reference.html
